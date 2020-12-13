@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "realdata",
+    "slug": "realdata",
+    "privacy": "public",
+    "platforms": ["ios", "android"],
+    "primaryColor": "#00818A",
+    "version": "0.5.7",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.realdata.realdata",
+      "buildNumber": "12",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.realid"
+        }
+      }
+    },
+    "android": {
+      "package": "com.totallyreal.app",
+      "versionCode": 12,
+      "config": {
+        "googleSignIn": {
+          "certificateHash": "totallyrealhash",
+          "apiKey": "totallyrealapikey"
+        }
+      },
+      "googleServicesFile": "./google-services.json",
+      "permissions": []
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "totallyrealapikey",
+        "authDomain": "totally-real.firebaseapp.com",
+        "databaseURL": "https://totally-real.firebaseio.com",
+        "projectId": "totallyrealprojectid",
+        "storageBucket": "totally-real.appspot.com",
+        "messagingSenderId": "totallyrealkey",
+        "appId": "totallyrealappid"
+      }
+    }
+  }
+}

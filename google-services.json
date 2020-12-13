@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "totallyrealvalue",
+    "firebase_url": "https://totallyrealvalue.firebaseio.com",
+    "project_id": "totallyrealvalue",
+    "storage_bucket": "totallyrealvalue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "totallyrealvalue",
+        "android_client_info": {
+          "package_name": "com.totallyrealvalue.totallyrealvalue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "totallyrealvalue",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "totallyrealvalue"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "totallyrealvalue",
+              "client_type": 3
+            },
+            {
+              "client_id": "totallyrealvalue",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.totallyrealvalue.totallyrealvalue"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
